@@ -3,74 +3,56 @@ pragma solidity ^0.8.12;
 import "./IDataTypesPractice.sol";
 
 contract Practice1 is IDataTypesPractice {
-    int256 intVariable = 12;
-
-    function getInt256() external view returns (int256)
+    function getInt256() external pure returns (int256)
     {
-        return intVariable;
+        return 12;
     }
 
-    uint256 uintVariable = 134;
-
-    function getUint256() external view returns (uint256)
+    function getUint256() external pure returns (uint256)
     {
-        return uintVariable;
+        return 134;
     }
 
-    int8 int8Variable = 11;
-
-    function getIint8() external view returns (int8)
+    function getIint8() external pure returns (int8)
     {
-        return int8Variable;
+        return 11;
     }
 
-    uint8 uint8Variable = 213;
-
-    function getUint8() external view returns (uint8)
+    function getUint8() external pure returns (uint8)
     {
-        return uint8Variable;
+        return 213;
     }
 
-    bool boolVariable = true;
-
-    function getBool() external view returns (bool)
+    function getBool() external pure returns (bool)
     {
-        return boolVariable;
+        return true;
     }
-
-    address addressVariable = address(this);
 
     function getAddress() external view returns (address)
     {
-        return addressVariable;
+        return address(this);
     }
 
-    bytes32 bytes32Variable = "Hello World!";
-
-    function getBytes32() external view returns (bytes32)
+    function getBytes32() external pure returns (bytes32)
     {
-        return bytes32Variable;
+        return "Hello World!";
     }
 
-    uint256[5] arrUint5Variable = [1, 2, 3, 4, 5];
-
-    function getArrayUint5() external view returns (uint256[5] memory)
+    function getArrayUint5() external pure returns (uint256[5] memory)
     {
-        return arrUint5Variable;
+        return [uint256(1), 2, 3, 4, 5];
     }
 
-    uint256[] arrUintVariable = [5, 2, 5, 4, 5];
-
-    function getArrayUint() external view returns (uint256[] memory)
+    function getArrayUint() external pure returns (uint256[] memory)
     {
-        return arrUintVariable;
+        uint[] memory arr = new uint[](1);
+        arr[0] = 1;
+        return arr;
     }
 
-    string stringVariable = "Hello World!";
-
-    function getString() external view returns (string memory)
+    function getString() external pure returns (string memory)
     {
-        return stringVariable;
+        return "Hello World!";
     }
 
     function getBigUint() external pure returns (uint256)
