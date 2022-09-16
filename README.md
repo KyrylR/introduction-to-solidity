@@ -46,13 +46,8 @@ ex. Kyrylo Riabov [Gmail](kyryl.ryabov@gmail.com)
 
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
-[//]: # (## Acknowledgments)
+## Inspiration, code snippets, etc.
 
-[//]: # ()
-[//]: # (Inspiration, code snippets, etc.)
-
-[//]: # (* [Bitcoin White paper]&#40;https://bitcoin.org/bitcoin.pdf&#41;)
-
-[//]: # (* [Blockchain demo]&#40;https://andersbrownworth.com/blockchain/hash&#41;)
+[Types -- Solidity](https://docs.soliditylang.org/en/v0.8.12/types.html)
 
 
