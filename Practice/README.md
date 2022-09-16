@@ -1,6 +1,9 @@
 # Solutions 
 
 ## Task:
+#### Practice 0
+[Link to tx](https://ropsten.etherscan.io/tx/0xd1279af1b6caaee27d70515c56dbe1760c883859e3b6bab5379fa3f563eb247c)
+
 #### Practice 1
 ##### New
 [Link to contract](https://ropsten.etherscan.io/address/0xbba4d2dde5cc9265a85d61878331d8dc0fa83cb5)
