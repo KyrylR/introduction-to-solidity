@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lectures/Lec2.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice2/IDataStructurePractice.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice2/Practice2.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice2" />
+      <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice1" />
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice" />
     </key>
   </component>
@@ -140,7 +143,7 @@
       <workItem from="1663142525438" duration="7763000" />
       <workItem from="1663175552856" duration="4312000" />
       <workItem from="1663222438704" duration="30000" />
-      <workItem from="1663318639352" duration="1721000" />
+      <workItem from="1663318639352" duration="6502000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -156,7 +159,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663150931918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished lec2">
+      <created>1663320420906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320420906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Reorganize practice folder structure">
+      <created>1663320473787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320473787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Reduced storage vars, considered gas in mind!">
+      <created>1663322063875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663322063875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added SPDX-License-Identifier: UNLICENSED">
+      <created>1663322675128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663322675128</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update README.md">
+      <created>1663322695424</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663322695424</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +203,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Finished first practice task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first practice task" />
+    <MESSAGE value="Finished lec2" />
+    <MESSAGE value="Reorganize practice folder structure" />
+    <MESSAGE value="Reduced storage vars, considered gas in mind!" />
+    <MESSAGE value="Added SPDX-License-Identifier: UNLICENSED" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
