@@ -26,6 +26,7 @@
 
 ### Practice 3
 [Link to MemoryTypesPracticeInput](https://ropsten.etherscan.io/address/0x7456678314c4c33b5dec4dacb8f73ffcafe87df9#code)
+
 [Link to UserInfo](https://ropsten.etherscan.io/address/0xa25945fdf36a90f0dc404dbcfb1ab10d73af2052)
 -- [Link to checker](https://ropsten.etherscan.io/address/0xf2309ae97c9fba17227812633d462dcf1c411e57)
 -- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x1cc2433ca6e44ccd4f43bc802ec44da793c6485b6a26c1f0b292ed8a36e7e644)
