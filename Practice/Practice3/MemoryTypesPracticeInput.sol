@@ -5,19 +5,27 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 interface IMemoryTypesPractice {
     function setA(uint256 _a) external;
+
     function setB(uint256 _b) external;
+
     function setC(uint256 _c) external;
-    function calc1() external view returns(uint256);
-    function calc2() external view returns(uint256);
+
+    function calc1() external view returns (uint256);
+
+    function calc2() external view returns (uint256);
+
     function claimRewards(address _user) external;
+
     function addNewMan(
         uint256 _edge,
         uint8 _dickSize,
         bytes32 _idOfSecretBluetoothVacinationChip,
         uint32 _iq
     ) external;
-    function getMiddleDickSize() external view returns(uint256);
-    function numberOfOldMenWithHighIq() external view returns(uint256);
+
+    function getMiddleDickSize() external view returns (uint256);
+
+    function numberOfOldMenWithHighIq() external view returns (uint256);
 }
 
 contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
@@ -57,7 +65,7 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
     // to optimize 1
     // Now consumes 27835 (27857)
     // Should consume not more than 27830 (27846) as execution cost for non zero values
-    function calc1() external view returns(uint256) {
+    function calc1() external view returns (uint256) {
         return b + c * a;
     }
 
@@ -65,12 +73,12 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
     // to optimize 2 + (29478)
     // Now consumes 31253 (31186)
     // Should consume not more than 30000 as execution cost for non zero values
-    function calc2() external view returns(uint256) {
+    function calc2() external view returns (uint256) {
         uint256 _locA = a;
         uint256 _locB = b;
         uint256 _locC = c;
-        return ((_locB+_locC)*(_locB+_locA)+(_locC+_locA)*_locC+_locC/_locA+_locC/_locB+2*_locA-1+_locA*_locB*_locC+_locA+_locB*_locA^2)/
-        (_locA+_locB)*_locC+2*_locA;
+        return ((_locB + _locC) * (_locB + _locA) + (_locC + _locA) * _locC + _locC / _locA + _locC / _locB + 2 * _locA - 1 + _locA * _locB * _locC + _locA + _locB * _locA ^ 2) /
+        (_locA + _locB) * _locC + 2 * _locA;
     }
 
     // to optimize 3
@@ -115,31 +123,31 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
     // to optimize 5
     // Now consumes 36689 (39384)
     // Should consume not more than 36100 (38795) +(38248) as execution cost for 6 elements array
-    function getMiddleDickSize() external view returns(uint256) {
+    function getMiddleDickSize() external view returns (uint256) {
         uint256 _sum = 0;
-        uint _len =  men.length;
+        uint _len = men.length;
 
         for (uint i = 0; i < _len;) {
             _sum += men[i].dickSize;
-        unchecked {
-            i++;
-        }
+            unchecked {
+                i++;
+            }
         }
 
-        return _sum/_len;
+        return _sum / _len;
     }
 
     // to optimize 6
     // Now consumes 68675 (65381)
     // Should consume not more than 40000 +(35592)  as execution cost for 6 elements array
-    function numberOfOldMenWithHighIq() external view returns(uint256 _count) {
-        uint _len =  men.length;
+    function numberOfOldMenWithHighIq() external view returns (uint256 _count) {
+        uint _len = men.length;
 
         for (uint256 i = 0; i < _len; i++) {
             if (men[i].edge > 50 && men[i].iq > 120) _count++;
-        unchecked {
-            i++;
-        }
+            unchecked {
+                i++;
+            }
         }
     }
 
@@ -156,7 +164,8 @@ interface IUserInfo {
     }
 
     function addUser(address _user, uint256 _balance, uint256 _unlockTime) external;
-    function getUserInfo(address _user) external view returns(User memory);
+
+    function getUserInfo(address _user) external view returns (User memory);
 }
 
 // Cannot be modified.
@@ -171,7 +180,7 @@ contract UserInfo is IUserInfo, Ownable {
         users[_user] = User(_balance, _unlockTime);
     }
 
-    function getUserInfo(address _user) external view returns(User memory) {
+    function getUserInfo(address _user) external view returns (User memory) {
         return users[_user];
     }
 
