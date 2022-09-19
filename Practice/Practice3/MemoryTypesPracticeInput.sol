@@ -11,9 +11,9 @@ interface IMemoryTypesPractice {
     function calc2() external view returns(uint256);
     function claimRewards(address _user) external;
     function addNewMan(
-        uint256 _edge, 
-        uint8 _dickSize, 
-        bytes32 _idOfSecretBluetoothVacinationChip, 
+        uint256 _edge,
+        uint8 _dickSize,
+        bytes32 _idOfSecretBluetoothVacinationChip,
         uint32 _iq
     ) external;
     function getMiddleDickSize() external view returns(uint256);
@@ -21,7 +21,7 @@ interface IMemoryTypesPractice {
 }
 
 contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
-    
+
     // Owner part. Cannot be modified.
     IUserInfo public userInfo;
     uint256 public a;
@@ -52,7 +52,7 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
     }
     // End of the owner part
 
-    // Here starts part for modification. Remember that function signatures cannot be modified. 
+    // Here starts part for modification. Remember that function signatures cannot be modified.
 
     // to optimize 1
     // Now consumes 27835 (27857)
@@ -71,7 +71,7 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
         uint256 _locC = c;
         return ((_locB+_locC)*(_locB+_locA)+(_locC+_locA)*_locC+_locC/_locA+_locC/_locB+2*_locA-1+_locA*_locB*_locC+_locA+_locB*_locA^2)/
         (_locA+_locB)*_locC+2*_locA;
-    } 
+    }
 
     // to optimize 3
     // Now consumes 55446
@@ -81,12 +81,12 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
         require(_userInfo.unlockTime <= block.timestamp,
             "MemoryTypesPracticeInput: Unlock time has not yet come");
 
-        require(!rewardsClaimed[_user], 
+        require(!rewardsClaimed[_user],
             "MemoryTypesPracticeInput: Rewards are already claimed");
-        
-        require(_userInfo.balance >= MIN_BALANCE, 
+
+        require(_userInfo.balance >= MIN_BALANCE,
             "MemoryTypesPracticeInput: To less balance");
-        
+
         rewardsClaimed[_user] = true;
     }
 
@@ -104,9 +104,9 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
     // Now consumes 115724 +(93679)
     // Should consume not more than 94000 as execution cost
     function addNewMan(
-        uint256 _edge, 
-        uint8 _dickSize, 
-        bytes32 _idOfSecretBluetoothVacinationChip, 
+        uint256 _edge,
+        uint8 _dickSize,
+        bytes32 _idOfSecretBluetoothVacinationChip,
         uint32 _iq
     ) public {
         men.push(Man(_edge, _idOfSecretBluetoothVacinationChip, _iq, _dickSize));
@@ -121,9 +121,9 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
 
         for (uint i = 0; i < _len;) {
             _sum += men[i].dickSize;
-            unchecked {
-                i++;
-            }
+        unchecked {
+            i++;
+        }
         }
 
         return _sum/_len;
@@ -137,9 +137,9 @@ contract MemoryTypesPracticeInput is IMemoryTypesPractice, Ownable {
 
         for (uint256 i = 0; i < _len; i++) {
             if (men[i].edge > 50 && men[i].iq > 120) _count++;
-             unchecked {
-                i++;
-            }
+        unchecked {
+            i++;
+        }
         }
     }
 
