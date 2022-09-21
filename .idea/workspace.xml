@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice/Practice4/FunctionTypesPracticeInput.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,11 +51,11 @@
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice3\start" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice4\start" />
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice3\start" />
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice" />
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice3" />
       <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice2" />
-      <recent name="C:\Users\inter\source\Solidity\introduction-to-solidity\Practice\Practice1" />
     </key>
   </component>
   <component name="RunManager" selected="Solidity.Practice1.getInt256">
@@ -160,7 +157,7 @@
       <workItem from="1663592401835" duration="1718000" />
       <workItem from="1663594458798" duration="686000" />
       <workItem from="1663599452901" duration="3940000" />
-      <workItem from="1663755716806" duration="1376000" />
+      <workItem from="1663755716806" duration="2065000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -288,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663602864833</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Practice4">
+      <created>1663758382744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663758382744</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +312,8 @@
     <MESSAGE value="Finish Practice3 (beautify)" />
     <MESSAGE value="Added starter files for practice3" />
     <MESSAGE value="Added Lec4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lec4" />
+    <MESSAGE value="Added Practice4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Practice4" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

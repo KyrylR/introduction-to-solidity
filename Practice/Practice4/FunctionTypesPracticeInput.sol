@@ -45,7 +45,7 @@ contract First is Ownable {
         return ePublic + ePrivate + eInternal;
     }
 
-    // I just do not know how to correctly do it...
+    // I just don't know how to do it correctly...
     function sumFromSecond(address contractAddress) external returns (uint256) {
         (bool success, bytes memory _data) = contractAddress.call(abi.encodeWithSignature("sum()"));
         require(success, "sum wasn't called");
