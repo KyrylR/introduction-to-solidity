@@ -34,3 +34,12 @@
 -- [Link to checker](https://ropsten.etherscan.io/address/0xf2309ae97c9fba17227812633d462dcf1c411e57)
 -- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x1cc2433ca6e44ccd4f43bc802ec44da793c6485b6a26c1f0b292ed8a36e7e644)
 
+### Practice 4 
+[Link to First](https://ropsten.etherscan.io/address/0x42d9a432bacc7f913a05f495fb839ea117578c17#code)
+
+[Link to Second](https://ropsten.etherscan.io/address/0x53f0c0b0035f3c9d7b2b71a892ad6034ea058e94#code)
+
+[Link to Attacker](https://ropsten.etherscan.io/address/0xb5a5dd0b18f81371624b27b81be6d1bfa4ff207e#code)
+
+-- [Link to checker](https://ropsten.etherscan.io/address/0xffe6f850686f48b910e51c45da4a4e61453a79a5)
+-- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x800a6e7252897720c3d0089196109a0c2fb0ed21dc233725c336dbb3c64ef6b6)
