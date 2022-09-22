@@ -43,3 +43,14 @@
 
 -- [Link to checker](https://ropsten.etherscan.io/address/0xffe6f850686f48b910e51c45da4a4e61453a79a5)
 -- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x800a6e7252897720c3d0089196109a0c2fb0ed21dc233725c336dbb3c64ef6b6)
+
+
+### Practice 5
+[Link to SimpleToken](https://ropsten.etherscan.io/address/0x72a04d3b95ab26350a7ca229702be31cee320a68)
+
+[Link to ContractsHaterToken](https://ropsten.etherscan.io/address/0x56115247592c93584a30b75f7dd4c4a14b1aad25)
+
+[Link to MrGreedyToken](https://ropsten.etherscan.io/address/0xff65ffe7c3b4e316b09f14bbf8e0fbd17ef253f4)
+
+-- [Link to checker](https://ropsten.etherscan.io/address/0x1692c54524d8b674c80fCEf5197071235DB59708)
+-- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x7b332e4192600adcb0d237be6f7b2054d3f2cddf8f15a79b6a8fc8aeb5ef327c)
