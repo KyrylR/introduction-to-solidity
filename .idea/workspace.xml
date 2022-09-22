@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice/Practice5/ContractsHaterToken.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice5/MrGreedyToken.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice5/SimpleToken.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +160,7 @@
       <workItem from="1663599452901" duration="3940000" />
       <workItem from="1663755716806" duration="2711000" />
       <workItem from="1663769840478" duration="926000" />
-      <workItem from="1663841897231" duration="143000" />
+      <workItem from="1663841897231" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -314,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663770015581</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finish Practice5">
+      <created>1663842096555</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663842096555</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +339,8 @@
     <MESSAGE value="Added Practice4" />
     <MESSAGE value="Grammar fix" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Finish Practice5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Practice5" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
