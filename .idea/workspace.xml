@@ -161,6 +161,7 @@
       <workItem from="1663755716806" duration="2711000" />
       <workItem from="1663769840478" duration="926000" />
       <workItem from="1663841897231" duration="799000" />
+      <workItem from="1663850205461" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663842096555</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Deleted comment">
+      <created>1663850255106</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663850255106</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +348,8 @@
     <MESSAGE value="Grammar fix" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Finish Practice5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Practice5" />
+    <MESSAGE value="Deleted comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted comment" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
