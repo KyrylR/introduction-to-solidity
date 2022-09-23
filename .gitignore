@@ -417,3 +417,10 @@ testeth
 node_modules
 bin_output
 logs
+
+
+# Hardhat files
+cache
+artifacts
+coverage.json
+coverage

@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Practice6/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.solcover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/.solhint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/contracts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/contracts/ContractsHaterToken.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/contracts/MrGreedyToken.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/contracts/SimpleToken.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/contracts/mock/tokens/ERC20Mock.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/deploy/migrations/1_token.migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/deploy/runners/deployer/deployer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/deploy/runners/deployer/migrations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/deploy/runners/logger/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/deploy/runners/verifier/verifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/hardhat.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/scripts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/scripts/helpers/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/ContractsHaterToken.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/ERC20Mock.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/MrGreedyToken.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/SimpleToken.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/helpers/hardhatTimeTraveller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice6/test/helpers/reverter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice5/ContractsHaterToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/ContractsHaterToken.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice5/MrGreedyToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/MrGreedyToken.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice5/SimpleToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/SimpleToken.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +195,8 @@
       <workItem from="1663841897231" duration="799000" />
       <workItem from="1663850205461" duration="1074000" />
       <workItem from="1663872897033" duration="856000" />
-      <workItem from="1663934859834" duration="81000" />
+      <workItem from="1663934859834" duration="1092000" />
+      <workItem from="1663936468004" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -345,7 +373,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663874093514</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update version">
+      <created>1663934974583</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663934974583</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix bugs with tokens number">
+      <created>1663935111297</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663935111297</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Minor fixes">
+      <created>1663935133335</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663935133335</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +421,10 @@
     <MESSAGE value="Deleted comment" />
     <MESSAGE value="Added start-up files" />
     <MESSAGE value="Update Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
+    <MESSAGE value="Update version" />
+    <MESSAGE value="Fix bugs with tokens number" />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
