@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.12;
+pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./SimpleToken.sol";
@@ -27,11 +27,14 @@ contract ContractsHaterToken is SimpleToken("ContractsHaterToken", "CHT"), ICont
         uint256 /*amount*/
     ) internal view override {
         if (from != address(0) && to != address(0) && to != address(this)) {
-            require(!isContract(to) || whitelist[to], "Failed to send token. Sending a token to this contract is not allowed.");
+            require(
+                !isContract(to) || whitelist[to],
+                "Sending a token to this contract is not allowed."
+            );
         }
     }
 
-    function isContract(address _addr) private view returns (bool){
+    function isContract(address _addr) private view returns (bool) {
         uint32 size;
         assembly {
             size := extcodesize(_addr)
