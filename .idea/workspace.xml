@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c02e2387-f4af-4d9f-9d63-b0d3bc368e9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice5/ContractsHaterToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/ContractsHaterToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice5/MrGreedyToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/MrGreedyToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice5/SimpleToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice5/SimpleToken.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,8 @@
       <workItem from="1663769840478" duration="926000" />
       <workItem from="1663841897231" duration="799000" />
       <workItem from="1663850205461" duration="1074000" />
-      <workItem from="1663872897033" duration="824000" />
+      <workItem from="1663872897033" duration="856000" />
+      <workItem from="1663934859834" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1663142797311</created>
@@ -335,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663850676312</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update Readme">
+      <created>1663874093514</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663874093514</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +371,8 @@
     <MESSAGE value="Finish Practice5" />
     <MESSAGE value="Deleted comment" />
     <MESSAGE value="Added start-up files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added start-up files" />
+    <MESSAGE value="Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
