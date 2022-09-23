@@ -6,12 +6,8 @@ const { artifacts } = require("hardhat");
 const SimpleToken = artifacts.require("SimpleToken");
 
 
-describe("SimpleToken", () => {
-    let SECOND;
-
-    before("setup()", async () => {
-        SECOND = await accounts(1);
-    });
+describe("SimpleToken", async () => {
+    const SECOND = await accounts(1);
 
     describe("decimals()", () => {
         it("should return correct decimals (18) for SimpleToken", async () => {

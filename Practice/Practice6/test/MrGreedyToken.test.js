@@ -6,16 +6,12 @@ const { artifacts } = require("hardhat");
 const MrGreedyToken = artifacts.require("MrGreedyToken");
 
 
-describe("MrGreedyToken", () => {
-    let SECOND, MRG;
+describe("MrGreedyToken", async () => {
+    const SECOND = await accounts(1);
+    const MRG = await MrGreedyToken.new();
     const RANDOM_ADDRESS = "0xa000000000000000000000000000000000000000";
     const TREASURY = "0xD000000000000000000000000000000000000000";
     const ONE_TOKEN = 10 ** 6;
-
-    before("setup()", async () => {
-        SECOND = await accounts(1);
-        MRG = await MrGreedyToken.new();
-    });
 
     describe("decimals()", () => {
         it("should return correct decimals (6) for MrGreedyToken", async () => {            

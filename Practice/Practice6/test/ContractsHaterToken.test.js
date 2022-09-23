@@ -7,14 +7,10 @@ const ContractsHaterToken = artifacts.require("ContractsHaterToken");
 const SimpleToken = artifacts.require("SimpleToken");
 
 
-describe("ContractsHaterToken", () => {
-    let SECOND, CHT;
+describe("ContractsHaterToken", async () => {
+    const SECOND = await accounts(1);
+    const CHT = await ContractsHaterToken.new();
     const RANDOM_ADDRESS = "0xa000000000000000000000000000000000000000";
-
-    before("setup()", async () => {
-        SECOND = await accounts(1);
-        CHT = await ContractsHaterToken.new();
-    });
 
     describe("decimals()", () => {
         it("should return correct decimals (18) for ContractsHaterToken", async () => {            
