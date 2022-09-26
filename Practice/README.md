@@ -54,3 +54,7 @@
 
 -- [Link to checker](https://ropsten.etherscan.io/address/0x1692c54524d8b674c80fCEf5197071235DB59708)
 -- [Link to succeeded tx](https://ropsten.etherscan.io/tx/0x7b332e4192600adcb0d237be6f7b2054d3f2cddf8f15a79b6a8fc8aeb5ef327c)
+
+### Practice 6
+
+![image](https://user-images.githubusercontent.com/89979281/192262760-a02d135e-7e2c-44eb-b51f-1c74654f949e.png)
